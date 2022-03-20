@@ -1,0 +1,358 @@
+body{
+    background-color: #f1f1f3
+}
+
+
+
+h1 { 
+    font-family: "Open Sans"; font-size: 45px; font-style: normal;
+    color: darkslategrey;   
+}
+h2 {
+    color : darkslategrey;
+    font-family: "Open Sans"; font-style: normal;
+}
+
+h4{
+    color: darkslategrey;
+    font-family: "Open Sans"; font-style: normal;
+}
+h5{
+    color: darkslategrey;
+    font-family: "Open Sans"; font-style: normal;
+}
+p {
+    color: darkslategrey;
+    font-family: "Open Sans"; font-style: normal;
+}
+
+
+
+
+@media only screen and (min-width:881px){
+    /*Navigation*/
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow:hidden;
+        width: 80%;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        border-bottom: 1px solid black;
+        margin: 0;
+        top:0;
+        padding-top: 40px;
+        background-color: #f1f1f3
+    }
+    li {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 20px;
+        color: black;
+    }
+    li a:hover{
+        background-color: steelblue;
+    }
+    li a.active{
+        background-color: steelblue;
+    }
+    .topnav{
+        display: none;
+    }
+    
+    /*Home*/
+    .Home{
+        margin-top: 140px;
+    }
+    .Home h1{
+        margin-left :10%;
+        margin-bottom: 4%;
+    }
+    .Home p{
+        margin-left: 10%;
+    }
+    .Home-top h2{
+        margin-left: 10%;
+    }
+    .Home a{
+        text-decoration: none;
+        color: darkslategray;
+    }
+    .Home-bottom{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,7%);
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 18%;
+        margin-top: 2%;
+        background-color: steelblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+    }  
+    .bottom-text{
+        margin-top: 1%;
+        width: 350px;
+        text-align: center
+    }
+    
+    .Home-top img{
+        float: right;
+        width:500px;
+        margin-right: 10%;
+        padding-top: 3%;
+    }
+    /*Profiles*/
+    .Profiles { 
+        margin-top: 10%;
+    }
+    .Profiles h4{
+        font-size: 120%;
+        margin: 2%;
+    }
+    .Profiles h5{
+        font-size: 100%;
+        margin :1%;
+    }
+    .head{
+        text-align: center
+    }
+    
+    .Profiles-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .profile{
+        width: 20%;
+        background-color: steelblue;
+        padding: 1%;
+        margin: 1%
+    }
+    .profile img{
+        width: 100%;
+    }
+    /*Courses*/
+    .Courses{
+        margin-top: 10%;
+    }
+    .Courses h1{
+        margin-left :10%;
+    }
+    .Courses p{
+        margin-left: 10%;
+    }
+    .Courses-top h2{
+        margin-left: 10%;
+    }   
+    .Courses-bottom{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 80%;
+        margin-top: 3%;
+        padding-top: 1%;
+        background-color: steelblue;
+    }  
+    .Courses-bottom h2{
+        padding-left: 7%;
+    }
+    .Courses-top img{
+        float: right;
+        width: 500px;
+        margin-right: 10%;
+        padding-top: 3%;
+    }
+
+    .Courses-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .Courses-links img{
+        width: 90%;
+
+    }
+    
+    /*Careers*/
+    .careers{
+        margin-top:10%;
+    }
+    .careers h1{
+
+        text-align: center;
+    }
+    .careers h2{
+        margin-left :10%;
+    }
+
+    .tab {
+        margin-left :10%;
+        margin-right: 10%;
+        overflow: hidden;
+    }
+
+    .tab button {
+        background-color: steelblue;
+        width: 25%;
+        float: left;
+        border: none;
+        outline: none;
+        padding: 14px 16px;
+        font-size: 17px;
+    }
+
+    .tab button:hover {
+        background-color: lightgray;
+    }
+
+    .tab button.active {
+        background-color: lightgray;
+    }
+
+    .tabcontent {
+        display: none;
+        color : darkslategrey;
+        font-family: "Open Sans"; font-style: normal;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        margin-left :10%;
+        margin-right: 10%;
+        background-color: lightgray;
+    }
+    
+    .appform{
+        padding-top: 1%;
+        width: 80%;
+        margin-left: 10%;
+        font-family: "Open Sans"; font-style: normal;
+        
+    }
+    .appform h2{
+        text-align: center;
+    }
+    
+    .appform select {
+        width: 90%;
+        margin-left:5%;
+        font-size: 18px;
+    }
+    
+    .textincolumn-left{
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+    }
+    .textincolumn-right{
+        width: 40%;
+        float: right;
+        margin-right: 6%;
+    }
+    .textin{
+        margin-top: 4%;
+        text-align: center;
+    }
+    
+    .appform input[type=text]{
+        width: 100%;
+        padding: 5px;
+        margin-top: 5px;
+    }
+    .appform input[type=file]{
+        margin-top:20px;
+        margin-left: 5%;
+        width: 100%;
+    }
+    .cv{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin-top: 23px;
+    }
+    .cv input[type=text]{
+        width:79%;
+        margin-top: 5px;
+    }
+    .cv input[type=button]{
+        border: none;
+        width: 10%;
+        padding: 7px;
+        margin-top: 5px;
+    }
+    .appform input[type=submit]{
+        width: 90%;
+        margin-left: 5%;
+        padding: 7px;
+        border: none;
+        font-size: 17px;
+        margin-bottom: 30px;
+        background-color: steelblue
+    }
+    
+    /*Contact Page*/
+    .Contact{
+        margin-top: 10%;
+    }
+    .Contact h1{
+        margin-bottom: 0;
+    }
+    .Contact-social {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .Contact img{
+        width: 120%;
+    }
+    .eandp{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .Contact-info {
+        text-align: center;
+        font-size: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: steelblue;
+        padding: 1%;
+        margin-top: 0.25%;
+    }
+    .ContactForm{
+        padding-top: 1%;
+        background-color: steelblue;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 5%;
+        padding-bottom: 10px;
+        font-family: "Open Sans"; font-style: normal;
+    }
+    .ContactForm input[type=text], input[type=email]{
+        width: 90%;
+        padding: 5px;
+        margin-top: 5px;
+    }
+}
+
+

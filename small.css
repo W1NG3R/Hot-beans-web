@@ -1,0 +1,286 @@
+body{
+    /*background-color: #1f2833;*/
+    background-color: #f1f1f3
+}
+
+
+h1 { 
+    font-family: "Open Sans"; font-size: 45px; font-style: normal;
+    color: darkslategrey;  
+}
+h2 {
+    color : darkslategrey;
+    font-family: "Open Sans"; font-style: normal;
+}
+
+h4{
+    color: darkslategrey;
+    font-family: "Open Sans"; font-style: normal;
+}
+h5{
+    color: darkslategrey;
+    font-family: "Open Sans"; font-style: normal;
+}
+p {
+    color: darkslategrey;
+    font-family: "Open Sans"; font-style: normal;
+}
+
+
+body{ 
+}
+/*Navigation*/
+ul {
+   display: none;
+ }
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    background-color: #f1f1f3;
+    font-family: "Courier New", Courier, monospace;
+}
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    background-color: steelblue;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: steelblue;
+    color: black;
+}
+
+
+
+/*Home*/
+.Home h1{
+    margin-left :1%;
+    text-align: center;
+}
+.Home p{
+    margin-left: 1%;
+}
+    
+.Home-top h2{
+    margin-left: 1%;
+    text-align: center;
+}
+.Home-bottom{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    margin-top: 3%;
+    padding-bottom:10%;
+    padding-top: 1%;
+    background-color: steelblue;
+} 
+.Home-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center
+}
+.bottom-text, .bottom-text a{
+    width: 50%; 
+    text-decoration: none;
+    color: black
+}
+.Home-top img{
+    width: 100%;
+    margin-top: 9%;
+}
+/*Profiles*/
+.head{
+    text-align: center;
+    margin-top: 13%;
+}
+.profile{
+    background-color: steelblue;
+    display: flex;
+    margin-bottom: 2%;
+}
+.profile img{
+    width:40%;
+    padding-right:2%
+}
+.profile h5, h4,p{
+    margin-top: 4%;
+    margin-bottom: 2%
+}
+.profile p{
+    font-size: 13px;
+}
+/*careers*/
+.careers h1{
+    text-align: center;
+    margin-top: 13%;
+}
+.tab {
+    overflow: hidden;
+}
+.tab button {
+    background-color: steelblue;
+    width: 25%;
+    float: left;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    height: 80px;
+    font-size: 17px;
+}
+.tab button:hover {
+    background-color: lightgray;
+}
+.tab button.active {
+    background-color: lightgray;
+}
+.tabcontent {
+    display: none;
+    color : darkslategrey;
+    font-family: "Open Sans"; font-style: normal;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: lightgray;
+}
+.appform{
+    padding-top: 1%;
+    width: 100%;
+    font-family: "Open Sans"; font-style: normal;   
+}
+.appform h2{
+    text-align: center;
+}
+.appform select {
+    width: 92%;
+    margin-left:5%;
+    font-size: 18px;
+}
+.textincolumn-left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.textincolumn-right{
+    width: 40%;
+    float: right;
+    margin-right: 6%;
+}
+.textin{
+    margin-top: 4%;
+    text-align: center;
+}
+.appform input[type=text]{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+.appform input[type=file]{
+    margin-top:20px;
+    margin-left: 5%;
+    width: 90%;
+}
+.cv{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 23px;
+}
+.cv input[type=text]{
+    width:66%;
+    margin-top: 5px;
+}
+.cv input[type=button]{
+    border: none;
+    width: 20%;
+    padding: 7px;
+    margin-top: 5px;
+}
+.appform input[type=submit]{
+    width: 90%;
+    margin-left: 5%;
+    padding: 7px;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 30px;
+    background-color: steelblue
+}
+/*contact*/
+
+.Contact-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2%;
+}
+.Contact-social img{
+    width: 95%;
+}
+.Contact-info {
+    text-align: center;
+    font-size: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: steelblue;
+    padding: 1%;
+    margin-top: 2%;
+}
+.Contact p{
+    color: black;
+}
+.ContactForm{
+    padding-left: 5%;
+    font-family: "Open Sans"; font-style: normal;
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+.ContactForm input[type=text], input[type=email]{
+    width: 92%;
+    padding: 7px;
+}
+/*Courses*/
+.Courses h1{
+    text-align: center;
+    margin-top: 13%;
+}
+.Courses p{
+    margin-left: 1%;
+}  
+.Courses-bottom{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    margin-top: 3%;
+    background-color: steelblue;
+    padding-left: 2%
+}  
+.Courses-bottom h2{
+    text-align: center;
+}
+.Courses-top img{
+    display: none;
+}
+.Courses-links img{
+    width: 32%;
+}
